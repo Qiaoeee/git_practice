@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2020-11-08T13:55:55.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" version="13.9.2" etag="lIf_M7215GnxHIhhFLdf" type="github"><diagram id="dasVOkzeNFgwzDSYhoRA">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-22T03:34:17.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="chbAxZ9bmQiektr-Ah7P" version="13.9.2" type="github">
+  <diagram id="dasVOkzeNFgwzDSYhoRA" name="Page-1">
+    <mxGraphModel dx="1037" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l_K4_4bhUk0jHuE4QP0g-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeWidth=3;" edge="1" parent="1" source="l_K4_4bhUk0jHuE4QP0g-1" target="l_K4_4bhUk0jHuE4QP0g-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_K4_4bhUk0jHuE4QP0g-1" value="A table including user id and recipe id and also ingredients listed in the recipe" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="310" y="110" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l_K4_4bhUk0jHuE4QP0g-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.145;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" source="l_K4_4bhUk0jHuE4QP0g-2" target="l_K4_4bhUk0jHuE4QP0g-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_K4_4bhUk0jHuE4QP0g-2" value="Convert clicks into recipes the user interested in; extract into database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l_K4_4bhUk0jHuE4QP0g-10" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;" edge="1" parent="1" source="l_K4_4bhUk0jHuE4QP0g-3" target="l_K4_4bhUk0jHuE4QP0g-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_K4_4bhUk0jHuE4QP0g-3" value="Select recipes including ingredients that appear most frequently in the database" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="210" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l_K4_4bhUk0jHuE4QP0g-6" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeWidth=3;" edge="1" parent="1" source="l_K4_4bhUk0jHuE4QP0g-4" target="l_K4_4bhUk0jHuE4QP0g-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="l_K4_4bhUk0jHuE4QP0g-4" value="Recipes that the user have clicked&lt;br&gt;like button&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="340" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l_K4_4bhUk0jHuE4QP0g-5" value="Recommended recipes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="340" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="l_K4_4bhUk0jHuE4QP0g-11" value="&lt;font style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;Recommended recipes&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="50" width="390" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
